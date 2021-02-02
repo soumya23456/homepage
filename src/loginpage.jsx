@@ -38,9 +38,11 @@ export default class LogIn extends React.Component {
         <p className="forgot-password text-right">
           <a href="#">Forgot password?</a>
         </p>
-        <button type="submit" class="btn btn-primary button">
-          Create new account
-        </button>
+        <form action="https://rlmibwoak.github.stackblitz.io">
+          <button type="submit" class="btn btn-primary button">
+            Create new account
+          </button>
+        </form>
       </div>
     );
   }
